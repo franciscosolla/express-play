@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "name": "express-play",
+  "version": "1.0.0",
+  "description": "Express application playground",
+  "main": "index.js",
+  "author": "Francisco Solla",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {}
+}
