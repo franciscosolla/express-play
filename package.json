@@ -3,7 +3,7 @@
   "name": "express-play",
   "version": "1.0.0",
   "description": "Express application playground",
-  "main": "index.js",
+  "main": "server.js",
   "author": "Francisco Solla",
   "license": "MIT",
   "private": false,
