@@ -1,9 +1,10 @@
 import express from "express";
+import path from "path";
 
 const app = express();
 
-app.get("/", (_, res) => {
-  res.send("<h1>Hello World!</h1><h2>This is my Express.js playground.</h2>");
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "..", "src/index.html"));
 });
 
 module.exports = app;
